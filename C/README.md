@@ -8,7 +8,7 @@ $ gcc main.c
 $ ./a.out
 ```
 ## File
-This project need just one input number, then somehow culculate and output a new number. For more detail check [here](https://github.com/tosh7/multiple_languages_for_reverse_engineering/blob/main/C/main.c).  
+This project need just one input number, then somehow culculate and output a new number. For more detail, check [here](https://github.com/tosh7/multiple_languages_for_reverse_engineering/blob/main/C/main.c).  
 If the attacker find how to culculate output value, attacker win.
 
 ## Results
