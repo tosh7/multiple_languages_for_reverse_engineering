@@ -5,7 +5,7 @@ int culculator(int);
 
 int main(void) {
     int inputNumber, outputNumber;
-    printf("Input a number then output a culculated number.\n");
+    printf("Input a number, then this will output a culculated number.\n");
     scanf("%d", &inputNumber);
     outputNumber = culculator(inputNumber);
     printf("%d\n", outputNumber);
@@ -13,5 +13,8 @@ int main(void) {
 }
 
 int culculator(int param) {
-    return param + 10;
+    int updatedParam = param + 12;
+    updatedParam *= updatedParam;
+    updatedParam -= 12;
+    return updatedParam;
 }
